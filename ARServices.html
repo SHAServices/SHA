@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>طلب خدمة شا</title>
+    <link rel="stylesheet" href="ARServices.css">
+    <style>
+        .form-container {
+            filter: invert(1);
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="logo-container">
+        <img src="Logo11.png" alt="شعار خدمات شا" class="logo">
+    </div>
+    <nav>
+        <ul>
+            <li><a href="ARHomepage.html">الصفحة الرئيسية</a></li>
+            <li><b href="ARServices.html">الخدمات</b></li>
+            <li><a href="ARContact.html">اتصل بنا</a></li>
+            <li><a href="ARAbout.html">عنا</a></li>
+        </ul>
+    </nav>
+</header>
+
+<div class="dropdown-container">
+    <button class="dropdown-button" onclick="toggleDropdown()">
+        <img src="language.png" alt="Language Selector" class="button-image"> 
+    </button>
+    <div class="dropdown-content" id="dropdown-content">
+        <a href="ENServices.html">إنجليزي</a>
+        <a href="ARServices.html">عربي</a>
+    </div>
+</div>
+
+<section class="hero">
+    <h1>اطلب خدمة</h1>
+    <p>املأ النموذج أدناه وسنتواصل معك في أقرب وقت ممكن!</p>
+    <div class="scroll-down">
+        <p id="scroll-down-text3">انتقل لأسفل/انقر هنا لطلب الخدمة</p>
+        <div class="arrow-down"></div>
+    </div>
+</section>
+
+<section class="subheader-section">
+    <h2 class="subheader"></h2>
+    <div class="form-container">
+        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdzOxRiY56iSmSB_FQkt8oXy1SKx0Vqk6l_2jN2QZW8gYKUEg/viewform?embedded=true" width="640" height="640" frameborder="0" marginheight="0" marginwidth="0">يتم التحميل…</iframe>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2024 خدمات شا. جميع الحقوق محفوظة.</p>
+    <a href="#" id="back-to-top">العودة للأعلى</a>
+</footer>
+
+<script src="Homepage.js"></script>
+</html>
